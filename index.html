@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> CS fa1 Josol </title>
+	
+		<meta charset = "UTF-8">
+		<meta name = "author" content="Alliyah Marienne Josol">
+		<meta name = "section" content="Lithium">
+		<meta name = "revised" content="11-18-23">
+
+	</head>
+    <body>
+        <ul>
+        <li><a id="link1" href="#div1">First Link</a></li>
+		
+        <li><a id="link2" href="#div2">Second Link</a></li>
+        </ul>
+
+        <div id="div1">Div 1 here</div>
+        <div id="div2">Div 2 here</div>
+    </body>
+
+	<style>
+		ul  {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+		
+		li  {
+			float: left;
+		}
+		
+		#link1:link {
+			font-size: 18px;
+			background-color: black;
+			color: pink;
+			text-decoration: none;
+		}
+		
+		#link1:visited  {
+			background-color: black;
+			color: gray;
+		}
+		
+		#link1:hover    {
+			background-color: black;
+			color: pink;
+		}
+		
+		#link1:active   {
+			background-color: darkpink;
+			color: black;
+		}
+		
+		#div1   {
+			position: absolute;
+			top: 60px;
+			float: left;
+			width: 100px;
+			height: 100px;
+			border: 1px solid black;
+		}
+		#link2:link     {
+			position: absolute;
+			left: 130px;
+			font-size: 18px;
+			background-color: black;
+			text-decoration: none;
+		}
+		#link2:visited  {
+			background-color: black;
+			color: white;
+		}
+		#link2:hover    {
+            background-color: black;
+            color: pink;
+        }
+        #link2:active   {
+            background-color: darkpink;
+            color: black;
+        }
+        #div2   {
+            position: absolute;
+            top: 180px;
+            width: 100px;
+            height: 100px;
+            float: left;
+            border: 1px solid black;
+        }
+        #div1:target    {
+            background-color: purple;
+            color: gray;
+        }
+        #div2:target    {
+            background-color: purple;
+            border: 15px dotted green;
+            color: gray;
+        }
+</style>
+</html>
